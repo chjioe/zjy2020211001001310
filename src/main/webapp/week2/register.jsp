@@ -58,7 +58,7 @@
 </head>
 <body>
 <div class="s">
-<form action="${pageContext.request.contextPath}/hello" align="center" name="form1" method="post" onsubmit="return on_submit()">
+<form action="${pageContext.request.contextPath}/register" align="center" name="form1" method="post" onsubmit="return on_submit()">
     <h2>New User Registration!</h2><br>
     <input type="text"  name="Username"id="1" placeholder="Username" style="background-color: antiquewhite;width: 200px"><br>
     <input type="text" name="password" id="2" placeholder="password" style="background-color: antiquewhite;width: 200px"><br>
