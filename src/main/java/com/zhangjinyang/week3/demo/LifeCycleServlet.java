@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(name = "LifeCycleServlet")
+@WebServlet(urlPatterns = "/life")
 public class LifeCycleServlet extends HttpServlet {
 
     public LifeCycleServlet(){
