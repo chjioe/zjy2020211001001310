@@ -33,6 +33,7 @@
         <servlet-name>registerServlet</servlet-name>
         <servlet-class>com.zhangjinyang.week3.demo.RegisterServlet</servlet-class>
     </servlet>
+
 <!--    <servlet>-->
 <!--        <servlet-name>JDBCDemoServlet</servlet-name>-->
 <!--        <servlet-class>com.zhangjinyang.week4.demo.JDBCDemoServlet</servlet-class>-->
