@@ -55,10 +55,27 @@
 <!--        </init-param>-->
 <!--        <load-on-startup>1</load-on-startup>-->
 <!--    </servlet>-->
-    <servlet-mapping>
-        <servlet-name>registerServlet</servlet-name>
-        <url-pattern>/register</url-pattern>
-    </servlet-mapping>
+
+<!--    <servlet>-->
+<!--        <servlet-name>Config</servlet-name>-->
+<!--        <servlet-class>com.zhangjinyang.week4.demo.ConfigDemoServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>name</param-name>-->
+<!--             <param-value>zhangjinyang</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>studentId</param-name>-->
+<!--            <param-value>2020211001001310</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>Config</servlet-name>-->
+<!--        <url-pattern>/config</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>registerServlet</servlet-name>-->
+<!--        <url-pattern>/register</url-pattern>-->
+<!--    </servlet-mapping>-->
     
 <!--    <servlet-mapping>-->
 <!--        <servlet-name>JDBCDemoServlet</servlet-name>-->
