@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%@include file="/week5/header.jsp"%>
 <html>
 <script language="JavaScript">
     function on_submit()
@@ -71,3 +73,5 @@
 </div>
 </body>
 </html>
+
+<%@include file="/week5/footer.jsp"%>
