@@ -7,33 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%@include file="/week5/header.jsp"%>
 <html>
-<script language="JavaScript">
-    function on_submit()
-    {
-        let username=document.getElementById("1").value;
-        if (username==null||username===''){
-            alert("username can not be null!")
-            return false;
-        }
-        let password=document.getElementById("2").value;
-        if (password==null||password===''){
-            alert("password can not be null!")
-            return false;
-        }
-        if (password.length<8){
-            alert("lengh must be at least 8 characters!");
-            return false;
-        }
-        let Email=document.getElementById("3").value;
-        const reg=/^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/;
-        if (!reg.test(Email)){
-            alert("invalid Email")
-            return false;
-        }
-    }
-</script>
 <head>
     <title>New User Registration</title>
     <style>
@@ -74,4 +48,3 @@
 </body>
 </html>
 
-<%@include file="/week5/footer.jsp"%>

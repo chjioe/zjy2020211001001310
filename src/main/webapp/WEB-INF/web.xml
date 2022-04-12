@@ -68,7 +68,4 @@
 <!--    </servlet-mapping>-->
 
 
-    <welcome-file-list>
-        <welcome-file>week2/register.jsp</welcome-file>
-    </welcome-file-list>
 </web-app>
